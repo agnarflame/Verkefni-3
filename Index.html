@@ -2,45 +2,50 @@
 <html lang="is">
   <head>
     <meta charset="utf-8">
-    <title>em</title>
+    <title>Margins</title>
     <!--
       Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
       CSS skjal með <link rel="stylesheet" href="skjal.css">
     -->
     <style>
-    html {
-      font-size: 24px;
+    main {
+      /* gefum boxi breidd */
+      width: 50%;
+
+      /*
+       * setjum vinstri og hægri margin sem „auto“—boxið er miðjað innan
+       * foreldris, sem er body sem er allur vafraglugginn
+       */
+       margin: 0 auto;
+
+       background-color: pink;
     }
 
-    /* texti innan div er nákvæmlega 12px */
-    div {
-      font-size: 12px;
+    h1 {
+      /**
+       * skilgreinum mismunandi margin með mismunandi einingum
+       * top = -5px
+       * right = 1rem
+       * bottom = 10em
+       * left = 1vw
+       */
+      margin: -5px 1rem 10em 1vw;
+
+      background-color: yellow;
     }
 
-    /* texti í p undir div er 12px * 2 = 24px */
-    div p {
-      font-size: 2em;
-    }
+    p {
+      margin-left: -100px;
 
-    /* texti í em undir p undir div er nákvæmlega 10px */
-    div p em {
-      font-size: 10px;
-    }
-
-    /*
-      texti í strong undir p undir div er:
-      12px * 2 * 1.5 = 36px
-    */
-    div p strong {
-      font-size: 1.5em;
+      background-color: lightgreen;
     }
     </style>
   </head>
 
   <body>
-    <div>
-      Lorem ipsum
-      <p>Halló <em>öll</em> <strong>saman</strong></p>
-    </div>
+    <main>
+      <h1>Margin</h1>
+      <p>Fyrsta málsgrein.</p>
+    </main>
   </body>
 </html>
