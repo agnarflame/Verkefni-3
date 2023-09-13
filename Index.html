@@ -2,50 +2,31 @@
 <html lang="is">
   <head>
     <meta charset="utf-8">
-    <title>Margins</title>
+    <title>Collapsing margins</title>
     <!--
       Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
       CSS skjal með <link rel="stylesheet" href="skjal.css">
     -->
     <style>
-    main {
-      /* gefum boxi breidd */
-      width: 50%;
-
-      /*
-       * setjum vinstri og hægri margin sem „auto“—boxið er miðjað innan
-       * foreldris, sem er body sem er allur vafraglugginn
-       */
-       margin: 0 auto;
-
-       background-color: pink;
-    }
-
-    h1 {
-      /**
-       * skilgreinum mismunandi margin með mismunandi einingum
-       * top = -5px
-       * right = 1rem
-       * bottom = 10em
-       * left = 1vw
-       */
-      margin: -5px 1rem 10em 1vw;
-
-      background-color: yellow;
-    }
-
+    /*
+    á milli tveggja p er aðeins 50px margin
+    ekki 50px+50px þar sem þau falla saman
+    */
     p {
-      margin-left: -100px;
-
-      background-color: lightgreen;
+      margin: 50px;
     }
+
+    p.more { margin-bottom: 100px; }
+    /*
+    milli p.more og næsta p er 100px margin ekki 100px + 50px
+    einnig vegna þess að margin falla saman
+    */
     </style>
   </head>
 
   <body>
-    <main>
-      <h1>Margin</h1>
-      <p>Fyrsta málsgrein.</p>
-    </main>
+    <p>Fyrsta málsgrein.</p>
+    <p class="more">Önnur málsgrein.</p>
+    <p>Þriðja málsgrein.</p>
   </body>
 </html>
