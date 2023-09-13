@@ -25,3 +25,9 @@ html {
   white-space: nowrap;
   width: 1px;
 }
+
+.div-header {
+  background-color: #920000;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem;
+}
