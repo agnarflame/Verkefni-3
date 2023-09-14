@@ -40,3 +40,8 @@ html {
   padding: 0.5rem;
   text-align: center;
 }
+
+.nav li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
