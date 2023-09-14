@@ -148,6 +148,11 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.table-box-thead {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .table-box-color1 td {
   background-color: #ffe7ae;
   padding: 0.25rem;
