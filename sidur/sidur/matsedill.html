@@ -2,6 +2,7 @@
 <html lang="is">
 
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
   <title>Matseðill | Veitingastaðurinn</title>
   <meta name="description" content="Um Veitingastaðinn, saga og starfsfólk.">
@@ -11,14 +12,14 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>Matseðill</h1>
     <p>Skoðaðu það sem við höfum upp á að bjóða!</p>
   </header>
 
-  <p><a href="#efni">Beint í efni</a></p>
+  <p class="sr-only"><a href="#efni">Beint í efni</a></p>
 
-  <nav>
+  <nav class="nav">
     <ul>
       <li><a href="../index.html">Forsíða</a></li>
       <li><a href="./um.html">Um Veitingastaðinn</a></li>
@@ -100,30 +101,35 @@
     <p><a href="../index.html">Aftur á forsíðu</a>.</p>
   </main>
 
-  <footer>
-    <h2>Opnunartími</h2>
-    <dl>
-      <dt>Mánudaga til fimmtudaga</dt>
-      <dd>09:00–18:00</dd>
-      <dt>Föstudaga</dt>
-      <dd>10:00–22:00</dd>
-      <dt>Laugardaga</dt>
-      <dd>11:00–22:00</dd>
-      <dt>Sunnudaga</dt>
-      <dd>Lokað</dd>
-    </dl>
+  <footer class="footer">
 
-    <h2>Hér erum við</h2>
-    <ul>
-      <li>Veitingastaðurinn ehf.</li>
-      <li>Aðalgata 10</li>
-      <li>100 Reykjavík</li>
-      <li><a href="tel:3334567">Sími 333-4567</a></li>
-      <li>
-        <a href="mailto:veitingastadur@example.org">veitingastadur@example.org</a>
-      </li>
-    </ul>
-  </footer>
+    <div class="leftFooterBox">
+      <h2>Opnunartími</h2>
+      <dl>
+        <dt>Mánudaga til fimmtudaga</dt>
+        <dd>09:00–18:00</dd>
+        <dt>Föstudaga</dt>
+        <dd>10:00–22:00</dd>
+        <dt>Laugardaga</dt>
+        <dd>11:00–22:00</dd>
+        <dt>Sunnudaga</dt>
+        <dd>Lokað</dd>
+      </dl>
+    </div>
+  
+    <div class="rightFooterBox">
+      <h2>Hér erum við</h2>
+      <ul>
+        <li>Veitingastaðurinn ehf.</li>
+        <li>Aðalgata 10</li>
+        <li>100 Reykjavík</li>
+        <li><a href="tel:3334567">Sími 333-4567</a></li>
+        <li>
+          <a href="mailto:veitingastadur@example.org">veitingastadur@example.org</a>
+        </li>
+      </ul>
+    </div>
+    </footer>
 </body>
 
 </html>
