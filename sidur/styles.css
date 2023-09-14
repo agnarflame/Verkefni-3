@@ -64,3 +64,16 @@ html {
   font-weight: bold;
   padding-top: 1rem;
 }
+
+.leftFooterBox {
+  border: 0;
+  padding: 0;
+  background-color: #460000;
+  float: left;
+  width: 50%;
+}
+
+.rightFooterBox {
+  float: right;
+  width: 50%;
+}
