@@ -26,8 +26,17 @@ html {
   width: 1px;
 }
 
-.div-header {
-  background-color: #920000;
-  border-bottom: 1px solid #ccc;
+.header {
+  background-color: #460000;
+  color: rgb(253, 242, 229);
+  border-bottom: 0.5rem solid #fdf8d1;
   padding: 0.5rem;
+  text-align: center;
+}
+
+.nav {
+  background-color: #fefff0;
+  color: rgb(87, 0, 0);
+  padding: 0.5rem;
+  text-align: center;
 }
