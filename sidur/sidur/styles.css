@@ -52,6 +52,41 @@ html {
   color: rgb(87, 0, 0);
 }
 
+.big-frontpage-box {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 2rem;
+  text-align: left;
+  border-bottom: 0.1rem solid #ffec5c;
+}
+
+.big-frontpage-box p {
+  padding-bottom: 1rem;
+}
+
+.big-frontpage-box dd {
+  padding-bottom: 1rem;
+}
+
+.big-frontpage-box dt {
+  font-weight: bold;
+}
+
+.big-frontpage-box h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.big-frontpage-box ul {
+  list-style: none;
+}
+
+.big-frontpage-box a {
+  padding-bottom: 1rem;
+}
+
 .footer {
   background-color: #460000;
   color: rgb(253, 242, 229);
