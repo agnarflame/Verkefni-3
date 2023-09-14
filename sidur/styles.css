@@ -58,6 +58,7 @@ html {
   border-top: 0.5rem solid #fdf8d1;
   padding: 0.5rem;
   text-align: center;
+  height: 100%;
 }
 
 .footer dt {
@@ -66,14 +67,28 @@ html {
 }
 
 .leftFooterBox {
-  border: 0;
-  padding: 0;
-  background-color: #460000;
-  float: left;
-  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 1rem;
+  float: none;
+  width:  fit-content;
+  height: 100%;
 }
 
 .rightFooterBox {
-  float: right;
-  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 1rem;
+  float:none;
+  width: fit-content;
+  height: 100%;
+}
+
+.rightFooterBox ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.rightFooterBox a {
+  color: rgb(253, 242, 229);
 }
