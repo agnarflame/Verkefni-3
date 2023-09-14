@@ -31,14 +31,14 @@ html {
 .header {
   background-color: #460000;
   color: rgb(253, 242, 229);
-  border-bottom: 0.5rem solid #fdf8d1;
+  border-bottom: 8px solid #ffe7ae;
   padding: 0.5rem;
   text-align: center;
 }
 
 .nav {
-  background-color: #fefff0;
-  color: rgb(87, 0, 0);
+  background-color: #fff9ee;
+  color: #2f0505;
   padding: 0.5rem;
   text-align: center;
 }
@@ -49,7 +49,7 @@ html {
 }
 
 .nav a {
-  color: rgb(87, 0, 0);
+  color: #2f0505;
 }
 .small-frontpage-box-top-left {
   background-color: #ffffff;
@@ -69,10 +69,14 @@ html {
 
 
 .small-frontpage-box-bottom {
-  background-color: #460000;
+  background-color: #2f0505;
   width: 49%;
   display: inline-block;
   background-color: #ffffff;
+  background-color: #ffe7ae ;
+  background-color: #2f0505;
+  background-color: #fff1cf;
+  background-color: #fff9ee;
 }
 .big-frontpage-box {
   background-color: #ffffff;
@@ -83,7 +87,7 @@ html {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
   text-align: left;
-  border-bottom: 0.1rem solid #ffec5c;
+  border-bottom: 0.1rem solid #ffe7ae;
 }
 .big-order-box {
   background-color: #ffffff;
@@ -94,7 +98,7 @@ html {
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
   text-align: left;
-  border-bottom: 0.1rem solid #ffec5c;
+  border-bottom: 0.1rem solid #ffe7ae;
 }
 
 .big-frontpage-box p {
@@ -148,7 +152,7 @@ html {
 }
 
 .table-box-color1 td {
-  background-color: #f5e681;
+  background-color: ffe7ae;
   padding: 0.25rem;
 }
 
@@ -178,7 +182,7 @@ html {
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 20rem;
-  border: #f5e681 1px solid;
+  border: #ffe7ae 1px solid;
   
 }
 .order-box div {
@@ -196,35 +200,55 @@ html {
 }
   
 
-
-.big-box {
+.big-box-top {
   display: inline-block;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 3rem;
+
+
+  max-width: 56rem;
+  height: 100%;
+  
+}
+
+
+.big-box-bottom {
+  display: inline-block;
+  margin-top: 1rem;
   margin-right: 1rem;
   margin-left: 3rem;
   margin-bottom: 2rem;
-  float: none;
+
   max-width: 56rem;
   height: 100%;
-  border-bottom: #f5e681 1px solid;
+  border-bottom: #ffe7ae 1px solid;
   padding-bottom: 2rem;
 }
 
-.big-box h2 {
+.big-box-bottom h2 {
   padding-bottom: 1rem;
 }
 
-.big-box ul {
+.big-box-top h2 {
+  padding-bottom: 1rem;
+}
+
+.big-box-botttom ul {
   list-style: none;
 }
 
-.big-box li {
+.big-box-bottom li {
   vertical-align: top;
   padding-bottom: 1rem;
-  padding: 0.25rem;
+  padding-right: 0.5rem;
   display: inline-block;
 }
 
-.big-box h3 {
+.big-box-bottom h3 {
+  padding-bottom: 1rem;
+}
+.big-box-top h3 {
   padding-bottom: 1rem;
 }
 
@@ -236,16 +260,16 @@ html {
 .footer-frontpage {
   background-color: #460000;
   color: rgb(253, 242, 229);
-  border-top: 0.5rem solid #fdf8d1;
+  border-top: 0.5rem solid #ffe7ae;
   padding: 0.5rem;
   text-align: center;
   min-height: 20rem;
 }
 
 .footer {
-  background-color: #460000;
+  background-color: #2f0505;
   color: rgb(253, 242, 229);
-  border-top: 0.5rem solid #fdf8d1;
+  border-top: 8px solid #ffe7ae;
   padding: 0.5rem;
   text-align: center;
   min-height: 30rem;
