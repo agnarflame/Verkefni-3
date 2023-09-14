@@ -14,7 +14,7 @@
 <body>
   <header class="header">
     <h1>Pantanir</h1>
-    <p>
+    <p class="sr-only">
       Pantaðu borð og mættu til okkar eða pantaðu mat sem við sendum þér eða
       þú sækir.
     </p>
@@ -32,8 +32,10 @@
   </nav>
 
   <main id="efni">
+    <section class="big-frontpage-box">
     <form method="post" action=".">
-      <p>Pantaðu mat, borð eða bæði!</p>    
+      <p class="sr-only">Pantaðu mat, borð eða bæði!</p>    
+      <section class="order-box-wrapper">
       <fieldset class="order-box">
         <legend>Panta borð</legend>
         <div>
@@ -58,8 +60,20 @@
         <div>
           <label for="special">Viltu taka eitthvað fram?</label>
           <textarea id="special"></textarea>
-        </div>
+   
       </fieldset>
+      <dl class="invisible">
+        <dt>*</dt>
+        <dd>* </dd>
+        <dt>*</dt>
+        <dd>*</dd>
+        <dt>*</dt>
+        
+      </dl>
+    </section>
+   
+    </div>
+    <section class="order-box-wrapper">
       <fieldset class="order-box">
         <legend>Panta mat</legend>
         <div>
@@ -87,9 +101,9 @@
           <input type="text" id="address">
         </div>
       </fieldset>
+    </section>
 
-
-        
+    <section class="order-box-wrapper">
       <fieldset class="order-box">
         <legend>Þínar upplýsingar</legend>
         <div>
@@ -105,16 +119,22 @@
           <input id="phone" type="tel" required placeholder="345-6789">
         </div>
       </fieldset>
+      <dl class="invisible2">
+     
+      
+        
+      </dl>
+    </section>
 
-
+    <section class="order-box-wrapper">
       <fieldset class="order-box">
         <legend>Samþykkja og panta</legend>
-        <div>
-          <label>
-            <input type="checkbox" name="terms">Ég samþykki skilmála
+        <div class="order-box-input">
+          <label class="order-box-input-label">
+            <input type="checkbox" name="terms" class="order-box-input-label">  Ég samþykki skilmála
             Veitingastaðsins</label>
         </div>
-        <button>Panta</button>
+        <div><button>Panta</button></div>
       </fieldset>
       <datalist id="foods">
         <option>Lasagna</option>
@@ -127,9 +147,22 @@
         <option>Hamborgari</option>
         <option>Pizza</option>
       </datalist>
+      <dl class="invisible2">
+        <dt>*</dt>
+        <dd>*</dd>
+        <dd>*</dd>
+        <dt>*</dt>
+        <dd>*</dd>
+        <dt>*</dt>
+
+        
+      </dl>
     </form>
+  </section>
+  
   </div>
-    <p><a href="../index.html">Aftur á forsíðu</a>.</p>
+</section>
+  <p class="table-box-follower"><a href="../index.html">Aftur á forsíðu</a>.</p>
   </main>
 
   <footer class="footer">
@@ -146,20 +179,21 @@
         <dt>Sunnudaga</dt>
         <dd>Lokað</dd>
       </dl>
+      <div class="right-footer-box">
+        <h2>Hér erum við</h2>
+        <ul>
+          <li>Veitingastaðurinn ehf.</li>
+          <li>Aðalgata 10</li>
+          <li>100 Reykjavík</li>
+          <li><a href="tel:3334567">Sími 333-4567</a></li>
+          <li>
+            <a href="mailto:veitingastadur@example.org">veitingastadur@example.org</a>
+          </li>
+        </ul>
+      </div>
     </div>
   
-    <div class="right-footer-box">
-      <h2>Hér erum við</h2>
-      <ul>
-        <li>Veitingastaðurinn ehf.</li>
-        <li>Aðalgata 10</li>
-        <li>100 Reykjavík</li>
-        <li><a href="tel:3334567">Sími 333-4567</a></li>
-        <li>
-          <a href="mailto:veitingastadur@example.org">veitingastadur@example.org</a>
-        </li>
-      </ul>
-    </div>
+    
     </footer>
 </body>
 

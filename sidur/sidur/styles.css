@@ -66,7 +66,26 @@ html {
 
 }
 
+.invisible-box {
+  display: inline-block;
+  color: transparent;
+  max-width: 22rem;
+}
 .invisible {
+  color: transparent;
+}
+
+.invisible2 {
+  font-size: 12.5px;
+  color: transparent;
+}
+
+.invisible3 {
+  font-size: 3px;
+  color: transparent;
+}
+.invisible4 {
+  font-size: 2px;
   color: transparent;
 }
 
@@ -153,12 +172,72 @@ html {
   margin-left: 3rem;
   margin-bottom: 0.5rem;
 }
-
-.order-box {
+.order-box-wrapper {
   display: inline-block;
-  min-width: 10em;
-  border: #f5e681 0.1rem solid;
-  padding: 1rem;
+  min-width: 20em;
+  box-sizing: border-box;
+  margin: 0.25rem;
+}
+.order-box {
+  box-sizing:border-box;
+  color: black;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 20rem;
+  border: #f5e681 1px solid;
+  
+}
+.order-box div {
+
+  padding-bottom: 1rem;
+}
+.order-box label {
+  display: block;
+}
+
+.order-box-input {
+
+  display: block;
+
+}
+  
+.order-box-input-label {
+
+
+}
+
+.big-box {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 3rem;
+  margin: 1rem;
+  float: none;
+  max-width: 900px;
+  height: 100%;
+}
+
+.big-box h2 {
+  padding-bottom: 1rem;
+}
+
+.big-box ul {
+  list-style: none;
+}
+
+.big-box li {
+  padding-bottom: 1rem;
+  padding: 0.25rem;
+  display: inline-block;
+}
+
+.big-box h3 {
+  padding-bottom: 1rem;
+}
+
+
+.order-box legend {
+  font-weight: bold;
 }
 
 .footer-frontpage {
@@ -176,7 +255,7 @@ html {
   border-top: 0.5rem solid #fdf8d1;
   padding: 0.5rem;
   text-align: center;
-  min-height: 20rem;
+  min-height: 30rem;
 }
 
 .footer-frontpage dt {
@@ -190,18 +269,18 @@ html {
 
 .left-footer-box-frontpage {
   display: inline-block;
-  vertical-align: top;
+ 
   padding-right: 1rem;
-  float: none;
+
   width:  fit-content;
   height: 100%;
 }
 
 .left-footer-box {
   display: inline-block;
-  vertical-align: top;
+
   padding-right: 1rem;
-  float: none;
+
   width:  fit-content;
   height: 100%;
 }
@@ -209,15 +288,16 @@ html {
 .right-footer-box-frontpage {
   display: inline-block;
   padding-left: 1rem;
-  float:none;
+
   width: fit-content;
   height: 100%;
 }
 
 .right-footer-box {
   display: inline-block;
+  padding-top: 1rem;
   padding-left: 1rem;
-  float:none;
+
   width: fit-content;
   height: 100%;
 }
