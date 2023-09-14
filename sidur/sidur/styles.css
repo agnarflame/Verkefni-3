@@ -51,16 +51,28 @@ html {
 .nav a {
   color: rgb(87, 0, 0);
 }
-
-.small-frontpage-box-top {
-  
+.small-frontpage-box-top-left {
+  background-color: #ffffff;
   width: 49%;
-  vertical-align: top;
   display: inline-block;
+  min-height: 10rem;
+  box-sizing: border-box;
+}
+.small-frontpage-box-top-right {
+  background-color: #ffffff;
+  width: 49%;
+  display: inline-block;
+  box-sizing: border-box;
 
 }
 
+.invisible {
+  color: transparent;
+}
+
+
 .small-frontpage-box-bottom {
+  background-color: #460000;
   width: 49%;
   display: inline-block;
   background-color: #ffffff;
@@ -68,6 +80,7 @@ html {
 .big-frontpage-box {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+  max-width: 900px;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 2.5rem;
@@ -114,6 +127,31 @@ html {
 
 .big-frontpage-box-no-border a {
   color: black;
+}
+
+.table-box {
+  border-collapse: collapse;
+  color: rgb(0, 0, 0);
+  max-width: 900px;
+  margin: 2rem;  
+  margin-left: 3rem;
+  padding-left: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+.table-box-color1 td {
+  background-color: #f5e681;
+  padding: 0.25rem;
+}
+
+.table-box-color2 td {
+  background-color: #ffffff;
+  padding: 0.25rem;
+}
+
+.table-box-follower {
+  margin-left: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer {
