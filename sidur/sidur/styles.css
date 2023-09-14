@@ -57,36 +57,14 @@ html {
   display: inline-block;
   min-height: 10rem;
   box-sizing: border-box;
+  vertical-align: top;
 }
 .small-frontpage-box-top-right {
   background-color: #ffffff;
   width: 49%;
   display: inline-block;
   box-sizing: border-box;
-
-}
-
-.invisible-box {
-  display: inline-block;
-  color: transparent;
-  max-width: 22rem;
-}
-.invisible {
-  color: transparent;
-}
-
-.invisible2 {
-  font-size: 12.5px;
-  color: transparent;
-}
-
-.invisible3 {
-  font-size: 3px;
-  color: transparent;
-}
-.invisible4 {
-  font-size: 2px;
-  color: transparent;
+  vertical-align: top;
 }
 
 
@@ -100,6 +78,17 @@ html {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   max-width: 900px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  text-align: left;
+  border-bottom: 0.1rem solid #ffec5c;
+}
+.big-order-box {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  max-width: 42rem;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 2.5rem;
@@ -172,7 +161,11 @@ html {
   margin-left: 3rem;
   margin-bottom: 0.5rem;
 }
+.table-box-follower a {
+  color: black;
+}
 .order-box-wrapper {
+  vertical-align: top;
   display: inline-block;
   min-width: 20em;
   box-sizing: border-box;
@@ -202,19 +195,18 @@ html {
 
 }
   
-.order-box-input-label {
 
-
-}
 
 .big-box {
   display: inline-block;
-  padding-right: 1rem;
-  padding-left: 3rem;
-  margin: 1rem;
+  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
   float: none;
-  max-width: 900px;
+  max-width: 56rem;
   height: 100%;
+  border-bottom: #f5e681 1px solid;
+  padding-bottom: 2rem;
 }
 
 .big-box h2 {
@@ -226,6 +218,7 @@ html {
 }
 
 .big-box li {
+  vertical-align: top;
   padding-bottom: 1rem;
   padding: 0.25rem;
   display: inline-block;
@@ -269,7 +262,7 @@ html {
 
 .left-footer-box-frontpage {
   display: inline-block;
- 
+ vertical-align: top;
   padding-right: 1rem;
 
   width:  fit-content;
@@ -288,7 +281,7 @@ html {
 .right-footer-box-frontpage {
   display: inline-block;
   padding-left: 1rem;
-
+  vertical-align: top;
   width: fit-content;
   height: 100%;
 }
