@@ -154,22 +154,41 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.order-box {
+  display: inline-block;
+  min-width: 10em;
+  border: #f5e681 0.1rem solid;
+  padding: 1rem;
+}
+
+.footer-frontpage {
+  background-color: #460000;
+  color: rgb(253, 242, 229);
+  border-top: 0.5rem solid #fdf8d1;
+  padding: 0.5rem;
+  text-align: center;
+  min-height: 20rem;
+}
+
 .footer {
   background-color: #460000;
   color: rgb(253, 242, 229);
   border-top: 0.5rem solid #fdf8d1;
   padding: 0.5rem;
   text-align: center;
-  height:max-content;
   min-height: 20rem;
 }
 
+.footer-frontpage dt {
+  font-weight: bold;
+  padding-top: 1rem;
+}
 .footer dt {
   font-weight: bold;
   padding-top: 1rem;
 }
 
-.leftFooterBox {
+.left-footer-box-frontpage {
   display: inline-block;
   vertical-align: top;
   padding-right: 1rem;
@@ -178,7 +197,16 @@ html {
   height: 100%;
 }
 
-.rightFooterBox {
+.left-footer-box {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 1rem;
+  float: none;
+  width:  fit-content;
+  height: 100%;
+}
+
+.right-footer-box-frontpage {
   display: inline-block;
   padding-left: 1rem;
   float:none;
@@ -186,11 +214,35 @@ html {
   height: 100%;
 }
 
-.rightFooterBox ul {
+.right-footer-box {
+  display: inline-block;
+  padding-left: 1rem;
+  float:none;
+  width: fit-content;
+  height: 100%;
+}
+
+.right-footer-box-frontpage ul {
   list-style: none;
   padding-top: 1rem;
 }
 
-.rightFooterBox a {
+.right-footer-boxul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+
+.right-footer-box ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+
+.right-footer-box-frontpage a {
+  color: rgb(253, 242, 229);
+}
+
+.right-footer-box a {
   color: rgb(253, 242, 229);
 }
