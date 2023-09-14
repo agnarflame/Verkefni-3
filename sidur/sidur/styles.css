@@ -161,6 +161,7 @@ html {
   padding: 0.5rem;
   text-align: center;
   height:max-content;
+  min-height: 20rem;
 }
 
 .footer dt {
@@ -179,7 +180,6 @@ html {
 
 .rightFooterBox {
   display: inline-block;
-  vertical-align: top;
   padding-left: 1rem;
   float:none;
   width: fit-content;
