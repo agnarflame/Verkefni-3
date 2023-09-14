@@ -15,6 +15,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 /* hjálpar class sem felur sjónrænt en skjálesarar lesa */
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
@@ -44,4 +46,21 @@ html {
 .nav li {
   display: inline-block;
   margin: 0 0.5rem;
+}
+
+.nav a {
+  color: rgb(87, 0, 0);
+}
+
+.footer {
+  background-color: #460000;
+  color: rgb(253, 242, 229);
+  border-top: 0.5rem solid #fdf8d1;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.footer dt {
+  font-weight: bold;
+  padding-top: 1rem;
 }
